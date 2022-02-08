@@ -1911,6 +1911,15 @@ cache-base@^1.0.1:
     union-value "^1.0.0"
     unset-value "^1.0.0"
 
+"cachee@https://github.com/irfanrosly/cachee#develop":
+  version "0.0.1"
+  resolved "https://github.com/irfanrosly/cachee#957ab88b40fe0c06a5d454b43b445e0bf5e0f286"
+  dependencies:
+    prop-types "^15.8.1"
+    react "17.0.2"
+    react-native "0.67.2"
+    react-native-fast-image "https://github.com/irfanrosly/react-native-fast-image#feature/defaultSource"
+
 call-bind@^1.0.0, call-bind@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/call-bind/-/call-bind-1.0.2.tgz#b1d4e89e688119c3c9a903ad30abb2f6a919be3c"
@@ -5183,7 +5192,7 @@ prompts@^2.0.1, prompts@^2.4.0:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.7.2:
+prop-types@^15.7.2, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -5241,6 +5250,10 @@ react-native-codegen@^0.0.8:
     flow-parser "^0.121.0"
     jscodeshift "^0.11.0"
     nullthrows "^1.1.1"
+
+"react-native-fast-image@https://github.com/irfanrosly/react-native-fast-image#feature/defaultSource":
+  version "8.5.11"
+  resolved "https://github.com/irfanrosly/react-native-fast-image#144f7920e47921c15bad06f17500b7cb169142f9"
 
 react-native@0.67.2:
   version "0.67.2"
