@@ -17,7 +17,6 @@ import {
   Image,
 } from 'react-native';
 import {Colors} from 'react-native/Libraries/NewAppScreen';
-import {CustomFastImage} from 'cachee';
 
 const App: () => Node = () => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -41,7 +40,7 @@ const App: () => Node = () => {
             style={styles.image}
           />
 
-          <CustomFastImage
+          <Image
             source={{uri: 'https://unsplash.it/400/400?image=2'}}
             resizeMode="contain"
             style={styles.image}
